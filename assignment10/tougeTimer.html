@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TougeTimer</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+</head>
+<body class="container">
+    <br>
+        <!-- <div class="text-center">
+            <img src="touge.png" class="image-fluid" alt="TougeTimer racing time site" width="650"/>
+        </div> -->
+    <div class="card">
+        <div class="card-body">
+            <div clas="row">
+                <h3 class="">Driver Times</h3>
+                <table class="table fs-4 sortable table-striped" id=timesList>
+                      <tr>
+                        <th>Time</th>
+                        <th>Date</th>
+                        <th>Name</th>
+                        <th>Car</th>
+                      </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+        <div>
+            <h3 class="text-center mb-3">Submit your time</h3>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <div class="mb-3 fs-4">
+                    <label for="newDriver"><b>Driver</b></label>
+                    <input type="text" placeholder="Driver Name" id="newDriver" class="form-control">
+
+                    <label for="newTime"><b>Time</b></label>
+                    <input type="text" placeholder="mm:ss.xxx" id="newTime" class="form-control">
+
+                    <lable for="newCar"><b>Car</b></lable>
+                    <input type="text" placeholder="year make model" id="newCar" class="form-control">
+                    </div>
+            </div>
+        </div>
+        <button id="btn" class="btn btn-primary">Submit</button>
+    <script src="script.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+</body>
+</html>
